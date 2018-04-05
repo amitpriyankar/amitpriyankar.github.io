@@ -1,0 +1,19 @@
+body {
+padding: 2em;
+}
+img {
+display: block;
+max-height: 15em;
+float: right;
+margin-bottom: 1em;
+}
+.container {
+max-width: 55em;
+margin-left: auto;
+margin-right: auto;
+}
+@media (max-width: 600px) {
+img {
+float: none;
+}
+}
